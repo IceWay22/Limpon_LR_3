@@ -1,0 +1,139 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    color: #7581a1;
+    line-height: 26px;
+}
+h1{
+    font-weight: 600;
+    font-size: 80px;
+    color: #192b59;
+    letter-spacing: -2px;
+    line-height: 90px;
+    max-width: 550px;
+}
+.nav{
+    font-size: 12px;
+    font-weight: 700;
+    color: #6e7ea9;
+    text-transform: uppercase;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav>li {
+    padding: 0 15px;
+    align-items: center;
+}
+
+.btn-primary{
+    background-color: #1085e4;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 20px 30px;
+    border-radius: 30px;
+}
+
+.btn-secondary{
+    background-color: #cbdbe8;
+    color: #7e8b7e;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 21px 42px;
+    border-radius: 30px;
+    border: 1px solid #cbdbe8;
+}
+
+.btn-secondary:hover{
+    border: 1px solid #cbdbe8;
+    background-color: #fff;
+}
+
+.btn-free {
+    color: #fff;
+    background-color: #1085e4;
+    font-weight: 400;
+    padding: 23px 57px;
+    letter-spacing: 0.7px;
+}
+
+.btn-group button + button{
+    margin-left: 15px;
+}
+
+.btn-primary:hover{
+    background-color: #fff;
+    color: #1085e4;
+}
+
+.btn-info {
+    color: #8085b1;
+    background-color: transparent;
+    border: 1px solid #dce1e5;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 21px 42px;
+    border-radius: 30px;
+}
+
+.btn-info:hover{
+    background-color: #dce1e5;
+}
+
+.nav a {
+    color: #6e7ea9;
+}
+
+#nav {
+    color: red;
+}
+
+a {
+    text-decoration: none;
+}
+
+.grid h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #192b59;
+}
+
+.grid h2 span {
+    font-size: 14px;
+    color: #1085e4;
+    display: block;
+}
+
+.grid-item h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #192b59;
+}
+
+a+ul {
+    color: #1085e4;
+}
+
+ul>li {
+    color: #29e410;
+}
+
+.wrap {
+    max-width: 1110px;
+    margin: 0 auto;
+}
