@@ -185,57 +185,90 @@ h1 {
     background: transparent;
 }
 
-.instrument li {
-    display: inline-block;
+.grid-item{
+    text-align: center;
+    box-shadow: 0 0 5px #f4f4f4;
 }
-.instrument h3 {
-    font-size: 20px;
-    font-weight: 600;
-    color: #192b59;
+
+.grid{
+    display:grid;
+    grid-template-areas:"a b c" "d b c" "d e f" "g e f" "g h h" ;
+}
+
+.grid-item-title{
+    grid-area:a;
+}
+
+.grid-item-1 {
+    grid-area:b;
+}
+
+.grid-item-2 {
+    grid-area:c;
+}
+
+.grid-item-3 {
+    grid-area:d;
+}
+
+.grid-item-4 {
+    grid-area:e;
+}
+
+.grid-item-5 {
+    grid-area:f;
+}
+
+.grid-item-6 {
+    grid-area:g;
+}
+
+.grid-text {
+    grid-area:h;
+}
+
+.grid-icon{
     display: block;
+    background-repeat: no-repeat;
+    margin: 0 auto;
 }
 
-.instrument a {
-    font-size: 20px;
-    font-weight: 600;
-    color: #1085e4;
-    display: block;
-}
-.instrument p {
-    font-size: 16px;
-    font-weight: 600;
-    color: #7581a1;
-    display: block;
-}
-.instrument h4 {
-    font-size: 16px;
-    font-weight: 700;
-    color: #192b59;
+.grid-icon-1{
+    background-image: url(../img/icon_1.png);
+    width: 73px;
+    height: 79px;
 }
 
-.grid h2 {
-    font-size: 40px;
-    color: #192b59;
-    font-weight: 700;
+.grid-icon-2{
+    background-image: url(../img/icon_2.png);
+    width: 89px;
+    height: 85px;
 }
 
-.grid h2 span {
-    font-size: 14px;
-    color: #1085e4;
-    display: block;
+.grid-icon-3{
+    background-image: url(../img/icon_3.png);
+    width: 105px;
+    height: 91px;
 }
 
-.grid-item h3 {
-    font-size: 20px;
-    font-weight: 600;
-    color: #192b59;
+.grid-icon-4{
+    background-image: url(../img/icon_4.png);
+    width: 121px;
+    height: 97px;
 }
 
-.grid-item a {
-    font-size: 14px;
-    font-weight: 600;
-    color: #1085e4;
-} 
+.grid-icon-5{
+    background-image: url(../img/icon_5.png);
+    width: 137px;
+    height: 103px;
+}
+
+.grid-icon-6{
+    background-image: url(../img/icon_6.png);
+    width: 153px;
+    height: 109px;
+}
+
 
 .list-company {
     list-style-type: none;
